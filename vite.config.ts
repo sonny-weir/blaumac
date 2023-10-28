@@ -8,5 +8,5 @@ export default defineConfig({
     extensions: ['.js','.jsx','.mjs','.ts', '.tsx','.vue', '.json']
 
   },
-  base: './dist'
+  base: ''
 })
