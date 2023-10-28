@@ -12,7 +12,7 @@ const routes = [
   { path: '/contact', component: Contact },
   { path: '/privacy', component: Privacy },
   { path: '/whatsapp', component: Whatsapp },
-  { path: '/whatsapp2', component: Whatsapp_out }
+  { path: '/whatsapp_out', component: Whatsapp_out }
 ]
 
 const router = createRouter({
