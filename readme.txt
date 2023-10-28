@@ -1,3 +1,3 @@
-Hosted at github pages. 
-
-changes made here will be uploaded and automatically live
+simply commit changes and
+- github will run action to build the commit 
+- github pages will look in the /dist folder 
