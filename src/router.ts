@@ -8,7 +8,7 @@ import Whatsapp_out from './components/Whatsapp_out.vue'
 // Additional routes can be added here
 const routes = [
   { path: '/', component: About },
-  { path: '/about', component: About },
+  { path: '/about', component: About, alias: '/' },
   { path: '/contact', component: Contact },
   { path: '/privacy', component: Privacy },
   { path: '/whatsapp', component: Whatsapp },

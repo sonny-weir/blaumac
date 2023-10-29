@@ -1,4 +1,6 @@
 <script setup lang="ts">
+
+
 </script>
 
 <template>
@@ -54,7 +56,6 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
   }
 
   nav ul li {
@@ -117,19 +118,19 @@
     border-color: #555;
   }
 
-  button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #333;
-    color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 250ms ease;
-    font-size: 1.1em;
-  }
+  .btn-style {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+  font-size: 1.1em;
+}
 
-  button:hover {
-    background-color: #444;
-  }
+.btn-style:hover {
+  background-color: #444;
+}
 
 </style>
