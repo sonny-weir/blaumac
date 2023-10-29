@@ -8,7 +8,7 @@
   <p>If you wish to opt out of our WhatsApp notifications, please enter your number here.</p>
   <div>
     <input type="text" placeholder="Your WhatsApp number" size="25" class="input-margin">
-    <router-link to="/whatsapp_out" target="_blank" class="btn-style">Opt-Out from WhatsApp Notifications</router-link>
+    <router-link to="/whatsapp_out" class="btn-style">Opt-Out from WhatsApp Notifications</router-link>
   </div>
 
 </template>
